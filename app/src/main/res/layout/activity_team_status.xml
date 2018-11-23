@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="511dp">
+    android:layout_width="368dp"
+    android:layout_height="495dp"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="162dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="14dp"
+        android:text="TEAM STATUS"
+        android:textSize="20dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="68dp"
+        android:text=" NAME : "
+        />
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="182dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="117dp"
+        android:text="LAST CHECKED-IN : "
+        />
+
+    <TextView
+        android:id="@+id/text_checked_in"
+        android:layout_width="183dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/text_name"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="0dp"
+        />
+
+    <TextView
+        android:id="@+id/teamstat_workstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="173dp"
+        android:text="Work Status :" />
+
+    <TextView
+        android:id="@+id/teamstat_task"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/teamstat_workstatus"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="227dp"
+        android:text="Task : " />
+
+    <TextView
+        android:id="@+id/teamstat_workstatus_value"
+        android:layout_width="66dp"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/text_name"
+        android:layout_alignTop="@+id/teamstat_workstatus"
+        android:text="Free" />
+
+    <TextView
+        android:id="@+id/teamstat_task_value"
+        android:layout_width="183dp"
+        android:layout_height="28dp"
+        android:layout_alignStart="@+id/text_name"
+        android:layout_alignTop="@+id/teamstat_task" />
+
+</RelativeLayout>

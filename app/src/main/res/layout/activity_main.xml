@@ -1,0 +1,144 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/btn_chat"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_checkin"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="-5dp"
+        android:text="Chat"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_checkin"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="145dp"
+        android:layout_height="57dp"
+        android:layout_alignStart="@+id/btn_taskalloc"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="355dp"
+        android:layout_marginBottom="139dp"
+        android:text="Check-In" />
+
+    <Button
+        android:id="@+id/btn_taskalloc"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="64dp"
+        android:text="Task Allocation" />
+
+    <Button
+        android:id="@+id/btn_teamstat"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_taskalloc"
+        android:layout_alignEnd="@+id/btn_chat"
+        android:layout_marginTop="-2dp"
+        android:layout_marginEnd="4dp"
+        android:text="Team Status" />
+
+    <SearchView
+        android:id="@+id/search_bar"
+        android:layout_width="220dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/chat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btn_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btn_chat"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-19dp"
+        android:text="EXIT" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_alignStart="@+id/search_bar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-41dp"
+        android:layout_marginTop="189dp"
+        android:text="No. of checked in users : " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btn_chat"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="180dp"
+        android:text="Tasks assigned: " />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="154dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-11dp"
+        android:layout_marginBottom="222dp"
+        android:text="Tasks completed : " />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-142dp"
+        android:layout_marginBottom="228dp"
+        android:text="No. of free users : " />
+
+    <Button
+        android:id="@+id/btn_wifi_on_off"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="36dp"
+        android:text="Wi-Fi" />
+
+    <Button
+        android:id="@+id/btn_discover"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_wifi_on_off"
+        android:layout_alignStart="@+id/btn_wifi_on_off"
+        android:layout_marginStart="1dp"
+        android:text="Discover" />
+
+
+</RelativeLayout>

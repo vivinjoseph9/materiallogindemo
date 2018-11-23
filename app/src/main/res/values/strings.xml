@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyBCM</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Hello and Welcome</string>
+    <string name="login">Login</string>
+    <string name="create_new">"No account yet? Create one"</string>
+    <string name="forgot_pass">"Forgot Password?"</string>
+    <string name="text_continue">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="dinner">Dinner</string>
+    <string name="nightlife">Nightlife</string>
+    <string name="search">Search</string>
+    <string name="tea_coffee"><![CDATA[Tea&Coffee]]></string>
+    <string name="things_to_do">Things To Do</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="fragment_welcome_message">Please Choose</string>
+    <string name="checkin_message">The check-in option is intended to help the management account for the employees during major incidents. Please tap the button to let others know that you are safe. Tapping the button does not send any personal information. Only your name and time will be sent.</string>
+
+    <string-array name="priority_list">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+</resources>
